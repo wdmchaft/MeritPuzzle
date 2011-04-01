@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8D912011346070600FA418E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D912001346070600FA418E /* UIKit.framework */; };
+		A8D912031346070600FA418E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D912021346070600FA418E /* Foundation.framework */; };
+		A8D912051346070600FA418E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D912041346070600FA418E /* CoreGraphics.framework */; };
+		A8D9120B1346070600FA418E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8D912091346070600FA418E /* InfoPlist.strings */; };
+		A8D9120E1346070600FA418E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D9120D1346070600FA418E /* main.m */; };
+		A8D912111346070600FA418E /* MeritPuzzleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D912101346070600FA418E /* MeritPuzzleAppDelegate.m */; };
+		A8D912141346070600FA418E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D912121346070600FA418E /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8D911FC1346070600FA418E /* MeritPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeritPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D912001346070600FA418E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8D912021346070600FA418E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8D912041346070600FA418E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8D912081346070600FA418E /* MeritPuzzle-Info.plist */ = {isa = PBXFileReference; path = "MeritPuzzle-Info.plist"; sourceTree = "<group>"; };
+		A8D9120A1346070600FA418E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8D9120C1346070600FA418E /* MeritPuzzle-Prefix.pch */ = {isa = PBXFileReference; path = "MeritPuzzle-Prefix.pch"; sourceTree = "<group>"; };
+		A8D9120D1346070600FA418E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8D9120F1346070600FA418E /* MeritPuzzleAppDelegate.h */ = {isa = PBXFileReference; path = MeritPuzzleAppDelegate.h; sourceTree = "<group>"; };
+		A8D912101346070600FA418E /* MeritPuzzleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeritPuzzleAppDelegate.m; sourceTree = "<group>"; };
+		A8D912131346070600FA418E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8D911F91346070600FA418E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D912011346070600FA418E /* UIKit.framework in Frameworks */,
+				A8D912031346070600FA418E /* Foundation.framework in Frameworks */,
+				A8D912051346070600FA418E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8D911F11346070600FA418E = {
+			isa = PBXGroup;
+			children = (
+				A8D912061346070600FA418E /* MeritPuzzle */,
+				A8D911FF1346070600FA418E /* Frameworks */,
+				A8D911FD1346070600FA418E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8D911FD1346070600FA418E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8D911FC1346070600FA418E /* MeritPuzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8D911FF1346070600FA418E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8D912001346070600FA418E /* UIKit.framework */,
+				A8D912021346070600FA418E /* Foundation.framework */,
+				A8D912041346070600FA418E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8D912061346070600FA418E /* MeritPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				A8D9120F1346070600FA418E /* MeritPuzzleAppDelegate.h */,
+				A8D912101346070600FA418E /* MeritPuzzleAppDelegate.m */,
+				A8D912121346070600FA418E /* MainWindow.xib */,
+				A8D912071346070600FA418E /* Supporting Files */,
+			);
+			path = MeritPuzzle;
+			sourceTree = "<group>";
+		};
+		A8D912071346070600FA418E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8D912081346070600FA418E /* MeritPuzzle-Info.plist */,
+				A8D912091346070600FA418E /* InfoPlist.strings */,
+				A8D9120C1346070600FA418E /* MeritPuzzle-Prefix.pch */,
+				A8D9120D1346070600FA418E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8D911FB1346070600FA418E /* MeritPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D912171346070600FA418E /* Build configuration list for PBXNativeTarget "MeritPuzzle" */;
+			buildPhases = (
+				A8D911F81346070600FA418E /* Sources */,
+				A8D911F91346070600FA418E /* Frameworks */,
+				A8D911FA1346070600FA418E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeritPuzzle;
+			productName = MeritPuzzle;
+			productReference = A8D911FC1346070600FA418E /* MeritPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8D911F31346070600FA418E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Leo Burnett";
+			};
+			buildConfigurationList = A8D911F61346070600FA418E /* Build configuration list for PBXProject "MeritPuzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8D911F11346070600FA418E;
+			productRefGroup = A8D911FD1346070600FA418E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8D911FB1346070600FA418E /* MeritPuzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8D911FA1346070600FA418E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D9120B1346070600FA418E /* InfoPlist.strings in Resources */,
+				A8D912141346070600FA418E /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8D911F81346070600FA418E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D9120E1346070600FA418E /* main.m in Sources */,
+				A8D912111346070600FA418E /* MeritPuzzleAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8D912091346070600FA418E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D9120A1346070600FA418E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8D912121346070600FA418E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D912131346070600FA418E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8D912151346070600FA418E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A8D912161346070600FA418E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		A8D912181346070600FA418E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeritPuzzle/MeritPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "MeritPuzzle/MeritPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8D912191346070600FA418E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeritPuzzle/MeritPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "MeritPuzzle/MeritPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8D911F61346070600FA418E /* Build configuration list for PBXProject "MeritPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D912151346070600FA418E /* Debug */,
+				A8D912161346070600FA418E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D912171346070600FA418E /* Build configuration list for PBXNativeTarget "MeritPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D912181346070600FA418E /* Debug */,
+				A8D912191346070600FA418E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8D911F31346070600FA418E /* Project object */;
+}
