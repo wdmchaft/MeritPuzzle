@@ -7,6 +7,9 @@
 //
 
 #import "MeritPuzzleAppDelegate.h"
+#import "MeritPuzzle.h"
+#import "ApplicationFacade.h"
+
 
 @implementation MeritPuzzleAppDelegate
 
@@ -16,6 +19,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    MeritPuzzle *meritPuzzle = [[MeritPuzzle alloc] init];
+    [self.window addSubview:[meritPuzzle view]];
+    
+    [[ApplicationFacade getInstance] startup:meritPuzzle];    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
