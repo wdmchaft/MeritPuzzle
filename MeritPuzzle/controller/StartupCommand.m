@@ -7,11 +7,17 @@
 //
 
 #import "StartupCommand.h"
+#import "MeritPuzzle.h"
+#import "MeritPuzzleMediator.h"
+#import "IntroMediator.h"
 
 @implementation StartupCommand
 
 - (void)execute:(id<INotification>)notification {
-    NSLog(@"startup");
+    MeritPuzzle *app = [notification body];
+    
+    [facade registerMediator:[MeritPuzzleMediator withViewComponent:app]];
+    [facade registerMediator:[IntroMediator withViewComponent:app.intro]];
 }
 
 @end
