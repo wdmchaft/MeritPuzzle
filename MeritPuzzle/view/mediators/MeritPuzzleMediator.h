@@ -1,5 +1,5 @@
 //
-//  StartupCommand.h
+//  MeritPuzzleMediator.h
 //  MeritPuzzle
 //
 //  Created by Saad Shams on 4/2/11.
@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SimpleCommand.h"
+#import "Mediator.h"
 
-@interface StartupCommand : SimpleCommand {
+
+@interface MeritPuzzleMediator : Mediator {
     
 }
 

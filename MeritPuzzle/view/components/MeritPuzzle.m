@@ -3,7 +3,7 @@
 //  MeritPuzzle
 //
 //  Created by Saad Shams on 4/2/11.
-//  Copyright 2011 Leo Burnett. All rights reserved.
+//  Copyright 2011 LB. All rights reserved.
 //
 
 #import "MeritPuzzle.h"
@@ -51,7 +51,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-	return YES;
+	return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft) || (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
 }
 
 @end

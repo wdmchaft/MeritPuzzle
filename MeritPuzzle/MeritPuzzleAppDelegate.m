@@ -3,7 +3,7 @@
 //  MeritPuzzle
 //
 //  Created by Saad Shams on 4/1/11.
-//  Copyright 2011 Leo Burnett. All rights reserved.
+//  Copyright 2011 LB. All rights reserved.
 //
 
 #import "MeritPuzzleAppDelegate.h"
@@ -23,7 +23,7 @@
     MeritPuzzle *meritPuzzle = [[MeritPuzzle alloc] init];
     [self.window addSubview:[meritPuzzle view]];
     
-    [[ApplicationFacade getInstance] startup:meritPuzzle];    
+    [[ApplicationFacade getInstance] startup:meritPuzzle];
     
     [self.window makeKeyAndVisible];
     return YES;
