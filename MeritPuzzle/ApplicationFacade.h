@@ -10,6 +10,8 @@
 #import "Facade.h"
 
 #define Startup @"startup"
+#define showBoatAnimation @"showBoatAnimation"
+#define ShowPuzzle @"showPuzzle"
 
 @interface ApplicationFacade : Facade {
     

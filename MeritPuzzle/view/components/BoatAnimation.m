@@ -1,45 +1,44 @@
 //
-//  MeritPuzzle.m
+//  BoatAnimation.m
 //  MeritPuzzle
 //
 //  Created by Saad Shams on 4/2/11.
-//  Copyright 2011 LB. All rights reserved.
+//  Copyright 2011 Leo Burnett. All rights reserved.
 //
 
-#import "MeritPuzzle.h"
+#import "BoatAnimation.h"
 
 
-@implementation MeritPuzzle
+@implementation BoatAnimation
 
-@synthesize intro, boatAnimation;
+@synthesize man;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        intro = [[Intro alloc] init];
-        
-        [self showIntro];
     }
     return self;
 }
 
-- (void)showIntro {
-    [self.view addSubview:intro.view];
-    [intro animateIn];
-}
-
-- (void)hideIntro {
-    [intro.view removeFromSuperview];
-    [intro reset];
-}
-
-- (void)showBoatAnimation {
+- (void)animateIn {
     
 }
 
-- (void)hideBoatAnimation {
+- (void)animateInDidComplete {
+    
+}
+
+- (void)animateOut {
+    
+}
+
+- (void)animateOutDidComplete {
+    
+}
+
+- (void)reset {
     
 }
 
@@ -74,7 +73,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-	return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft) || (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
+	return YES;
 }
 
 @end

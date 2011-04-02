@@ -12,6 +12,8 @@
 
 @implementation Intro
 
+@synthesize name, delegate;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -22,23 +24,44 @@
 }
 
 - (void)animateIn {
-    [Animations fadeIn:self.view animateWithDuration:1 delay:0 delegate:self];
+    [Animations fadeIn:self.view animateWithDuration:0.5 delay:0 delegate:self];
 }
 
 - (void)animateInDidComplete {
-    NSLog(@"animateInDidComplete");
+    
 }
 
 - (void)animateOut {
-    
+    [Animations fadeOut:self.view animateWithDuration:0.15 delay:0 delegate:self];
 }
 
 - (void)animateOutDidComplete {
-    
+    [delegate next];
 }
 
 - (void)reset {
-    
+    [name setText:@""];
+}
+
+- (IBAction)next {
+    if([self validate]){
+        [self animateOut];
+    }
+}
+
+- (BOOL)validate {
+    if([name.text length] == 0){
+        UIAlertView *error;
+        error = [[UIAlertView alloc] initWithTitle:@"Name required" message:[NSString stringWithFormat:@"Please enter your name"] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [error show];
+        [error release];
+        return NO;
+    }
+    return YES;
+}
+
+- (IBAction)backgroundTouch {
+    [name resignFirstResponder];
 }
 
 - (void)dealloc

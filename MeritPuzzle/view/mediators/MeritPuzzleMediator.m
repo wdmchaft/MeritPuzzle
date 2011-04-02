@@ -8,6 +8,7 @@
 
 #import "MeritPuzzleMediator.h"
 #import "MeritPuzzle.h"
+#import "ApplicationFacade.h"
 
 @implementation MeritPuzzleMediator
 
@@ -24,11 +25,13 @@
 }
 
 - (NSArray *)listNotificationInterests {
-    return [NSArray arrayWithObjects: nil];
+    return [NSArray arrayWithObjects: showBoatAnimation, nil];
 }
 
 - (void)handleNotification:(id<INotification>)notification {
-    
+    if([[notification name] isEqualToString:showBoatAnimation]){
+        
+    }
 }
 
 @end

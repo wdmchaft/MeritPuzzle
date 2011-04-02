@@ -8,9 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import "Mediator.h"
+#import "Intro.h"
 
 
-@interface IntroMediator : Mediator {
+@interface IntroMediator : Mediator <IntroDelegate> {
     
 }
 

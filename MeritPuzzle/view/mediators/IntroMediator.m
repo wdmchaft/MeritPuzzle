@@ -8,6 +8,7 @@
 
 #import "IntroMediator.h"
 #import "Intro.h"
+#import "ApplicationFacade.h"
 
 @implementation IntroMediator
 
@@ -21,6 +22,14 @@
 
 - (void)initializeMediator {
     self.mediatorName = [IntroMediator NAME];
+}
+
+- (void)onRegister {
+    [viewComponent setDelegate:self];
+}
+
+- (void)next {
+    
 }
 
 

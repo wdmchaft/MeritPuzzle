@@ -9,9 +9,23 @@
 #import <UIKit/UIKit.h>
 #import "AnimationDelegate.h"
 
+@protocol IntroDelegate
+
+- (void)next;
+
+@end
+
 
 @interface Intro : UIViewController <AnimationDelegate> {
-    
+    IBOutlet UITextField *name;
+    id<IntroDelegate>delegate;
 }
+
+@property (nonatomic, retain) IBOutlet UITextField *name;
+@property (nonatomic, retain) id<IntroDelegate>delegate;
+
+- (IBAction)backgroundTouch;
+- (IBAction)next;
+- (BOOL)validate;
 
 @end
