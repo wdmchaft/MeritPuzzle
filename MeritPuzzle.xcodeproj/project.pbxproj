@@ -14,6 +14,27 @@
 		A8D9120E1346070600FA418E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D9120D1346070600FA418E /* main.m */; };
 		A8D912111346070600FA418E /* MeritPuzzleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D912101346070600FA418E /* MeritPuzzleAppDelegate.m */; };
 		A8D912141346070600FA418E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D912121346070600FA418E /* MainWindow.xib */; };
+		A8D9121F1346270C00FA418E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D9121E1346270C00FA418E /* QuartzCore.framework */; };
+		A8D9126F1346271D00FA418E /* TweenC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D912251346271D00FA418E /* TweenC.m */; };
+		A8D912701346271D00FA418E /* TweenConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D912271346271D00FA418E /* TweenConstants.m */; };
+		A8D912711346271D00FA418E /* TweenCPlaygroundAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D912291346271D00FA418E /* TweenCPlaygroundAppDelegate.m */; };
+		A8D912721346271D00FA418E /* TweenCPlaygroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D9122B1346271D00FA418E /* TweenCPlaygroundViewController.m */; };
+		A8D912731346271D00FA418E /* TweenerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D9122E1346271D00FA418E /* TweenerAnimation.m */; };
+		A8D912741346271D00FA418E /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D912331346271D00FA418E /* Controller.m */; };
+		A8D912751346271D00FA418E /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D912351346271D00FA418E /* Model.m */; };
+		A8D912761346271D00FA418E /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D912371346271D00FA418E /* View.m */; };
+		A8D912771346271D00FA418E /* MacroCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D9125C1346271D00FA418E /* MacroCommand.m */; };
+		A8D912781346271D00FA418E /* SimpleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D9125E1346271D00FA418E /* SimpleCommand.m */; };
+		A8D912791346271D00FA418E /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D912611346271D00FA418E /* Facade.m */; };
+		A8D9127A1346271D00FA418E /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D912641346271D00FA418E /* Mediator.m */; };
+		A8D9127B1346271D00FA418E /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D912671346271D00FA418E /* Notification.m */; };
+		A8D9127C1346271D00FA418E /* Notifier.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D912691346271D00FA418E /* Notifier.m */; };
+		A8D9127D1346271D00FA418E /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D9126B1346271D00FA418E /* Observer.m */; };
+		A8D9127E1346271D00FA418E /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D9126E1346271D00FA418E /* Proxy.m */; };
+		A8E00F131347206B00C52C86 /* ApplicationFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E00F121347206B00C52C86 /* ApplicationFacade.m */; };
+		A8E00F161347210600C52C86 /* StartupCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E00F151347210600C52C86 /* StartupCommand.m */; };
+		A8E00F1A1347218500C52C86 /* MeritPuzzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E00F181347218500C52C86 /* MeritPuzzle.m */; };
+		A8E00F1B1347218500C52C86 /* MeritPuzzle.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E00F191347218500C52C86 /* MeritPuzzle.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +42,85 @@
 		A8D912001346070600FA418E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8D912021346070600FA418E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8D912041346070600FA418E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A8D912081346070600FA418E /* MeritPuzzle-Info.plist */ = {isa = PBXFileReference; path = "MeritPuzzle-Info.plist"; sourceTree = "<group>"; };
+		A8D912081346070600FA418E /* MeritPuzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeritPuzzle-Info.plist"; sourceTree = "<group>"; };
 		A8D9120A1346070600FA418E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A8D9120C1346070600FA418E /* MeritPuzzle-Prefix.pch */ = {isa = PBXFileReference; path = "MeritPuzzle-Prefix.pch"; sourceTree = "<group>"; };
+		A8D9120C1346070600FA418E /* MeritPuzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeritPuzzle-Prefix.pch"; sourceTree = "<group>"; };
 		A8D9120D1346070600FA418E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A8D9120F1346070600FA418E /* MeritPuzzleAppDelegate.h */ = {isa = PBXFileReference; path = MeritPuzzleAppDelegate.h; sourceTree = "<group>"; };
+		A8D9120F1346070600FA418E /* MeritPuzzleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeritPuzzleAppDelegate.h; sourceTree = "<group>"; };
 		A8D912101346070600FA418E /* MeritPuzzleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeritPuzzleAppDelegate.m; sourceTree = "<group>"; };
 		A8D912131346070600FA418E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A8D9121E1346270C00FA418E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A8D912241346271D00FA418E /* TweenC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweenC.h; sourceTree = "<group>"; };
+		A8D912251346271D00FA418E /* TweenC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweenC.m; sourceTree = "<group>"; };
+		A8D912261346271D00FA418E /* TweenConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweenConstants.h; sourceTree = "<group>"; };
+		A8D912271346271D00FA418E /* TweenConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweenConstants.m; sourceTree = "<group>"; };
+		A8D912281346271D00FA418E /* TweenCPlaygroundAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweenCPlaygroundAppDelegate.h; sourceTree = "<group>"; };
+		A8D912291346271D00FA418E /* TweenCPlaygroundAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweenCPlaygroundAppDelegate.m; sourceTree = "<group>"; };
+		A8D9122A1346271D00FA418E /* TweenCPlaygroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweenCPlaygroundViewController.h; sourceTree = "<group>"; };
+		A8D9122B1346271D00FA418E /* TweenCPlaygroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweenCPlaygroundViewController.m; sourceTree = "<group>"; };
+		A8D9122C1346271D00FA418E /* TweenEquations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweenEquations.h; sourceTree = "<group>"; };
+		A8D9122D1346271D00FA418E /* TweenerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweenerAnimation.h; sourceTree = "<group>"; };
+		A8D9122E1346271D00FA418E /* TweenerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweenerAnimation.m; sourceTree = "<group>"; };
+		A8D912321346271D00FA418E /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		A8D912331346271D00FA418E /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		A8D912341346271D00FA418E /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		A8D912351346271D00FA418E /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		A8D912361346271D00FA418E /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		A8D912371346271D00FA418E /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		A8D912391346271D00FA418E /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		A8D9123A1346271D00FA418E /* Facade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
+		A8D9123B1346271D00FA418E /* ICommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICommand.h; sourceTree = "<group>"; };
+		A8D9123C1346271D00FA418E /* IController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IController.h; sourceTree = "<group>"; };
+		A8D9123D1346271D00FA418E /* IFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFacade.h; sourceTree = "<group>"; };
+		A8D9123E1346271D00FA418E /* IMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMediator.h; sourceTree = "<group>"; };
+		A8D9123F1346271D00FA418E /* IModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IModel.h; sourceTree = "<group>"; };
+		A8D912401346271D00FA418E /* INotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INotification.h; sourceTree = "<group>"; };
+		A8D912411346271D00FA418E /* INotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INotifier.h; sourceTree = "<group>"; };
+		A8D912421346271D00FA418E /* IObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IObserver.h; sourceTree = "<group>"; };
+		A8D912431346271D00FA418E /* IProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IProxy.h; sourceTree = "<group>"; };
+		A8D912441346271D00FA418E /* IView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IView.h; sourceTree = "<group>"; };
+		A8D912451346271D00FA418E /* MacroCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroCommand.h; sourceTree = "<group>"; };
+		A8D912461346271D00FA418E /* Mediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mediator.h; sourceTree = "<group>"; };
+		A8D912471346271D00FA418E /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		A8D912481346271D00FA418E /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
+		A8D912491346271D00FA418E /* Notifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifier.h; sourceTree = "<group>"; };
+		A8D9124A1346271D00FA418E /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		A8D9124B1346271D00FA418E /* Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Proxy.h; sourceTree = "<group>"; };
+		A8D9124C1346271D00FA418E /* SimpleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCommand.h; sourceTree = "<group>"; };
+		A8D9124D1346271D00FA418E /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		A8D9124F1346271D00FA418E /* ICommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICommand.h; sourceTree = "<group>"; };
+		A8D912501346271D00FA418E /* IController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IController.h; sourceTree = "<group>"; };
+		A8D912511346271D00FA418E /* IFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFacade.h; sourceTree = "<group>"; };
+		A8D912521346271D00FA418E /* IMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMediator.h; sourceTree = "<group>"; };
+		A8D912531346271D00FA418E /* IModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IModel.h; sourceTree = "<group>"; };
+		A8D912541346271D00FA418E /* INotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INotification.h; sourceTree = "<group>"; };
+		A8D912551346271D00FA418E /* INotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INotifier.h; sourceTree = "<group>"; };
+		A8D912561346271D00FA418E /* IObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IObserver.h; sourceTree = "<group>"; };
+		A8D912571346271D00FA418E /* IProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IProxy.h; sourceTree = "<group>"; };
+		A8D912581346271D00FA418E /* IView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IView.h; sourceTree = "<group>"; };
+		A8D9125B1346271D00FA418E /* MacroCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroCommand.h; sourceTree = "<group>"; };
+		A8D9125C1346271D00FA418E /* MacroCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroCommand.m; sourceTree = "<group>"; };
+		A8D9125D1346271D00FA418E /* SimpleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCommand.h; sourceTree = "<group>"; };
+		A8D9125E1346271D00FA418E /* SimpleCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCommand.m; sourceTree = "<group>"; };
+		A8D912601346271D00FA418E /* Facade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
+		A8D912611346271D00FA418E /* Facade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
+		A8D912631346271D00FA418E /* Mediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mediator.h; sourceTree = "<group>"; };
+		A8D912641346271D00FA418E /* Mediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mediator.m; sourceTree = "<group>"; };
+		A8D912661346271D00FA418E /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
+		A8D912671346271D00FA418E /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notification.m; sourceTree = "<group>"; };
+		A8D912681346271D00FA418E /* Notifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifier.h; sourceTree = "<group>"; };
+		A8D912691346271D00FA418E /* Notifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifier.m; sourceTree = "<group>"; };
+		A8D9126A1346271D00FA418E /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		A8D9126B1346271D00FA418E /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
+		A8D9126D1346271D00FA418E /* Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Proxy.h; sourceTree = "<group>"; };
+		A8D9126E1346271D00FA418E /* Proxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Proxy.m; sourceTree = "<group>"; };
+		A8E00F111347206B00C52C86 /* ApplicationFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationFacade.h; sourceTree = "<group>"; };
+		A8E00F121347206B00C52C86 /* ApplicationFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationFacade.m; sourceTree = "<group>"; };
+		A8E00F141347210600C52C86 /* StartupCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartupCommand.h; sourceTree = "<group>"; };
+		A8E00F151347210600C52C86 /* StartupCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartupCommand.m; sourceTree = "<group>"; };
+		A8E00F171347218500C52C86 /* MeritPuzzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeritPuzzle.h; sourceTree = "<group>"; };
+		A8E00F181347218500C52C86 /* MeritPuzzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeritPuzzle.m; sourceTree = "<group>"; };
+		A8E00F191347218500C52C86 /* MeritPuzzle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeritPuzzle.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +131,7 @@
 				A8D912011346070600FA418E /* UIKit.framework in Frameworks */,
 				A8D912031346070600FA418E /* Foundation.framework in Frameworks */,
 				A8D912051346070600FA418E /* CoreGraphics.framework in Frameworks */,
+				A8D9121F1346270C00FA418E /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +158,9 @@
 		A8D911FF1346070600FA418E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8D912211346271D00FA418E /* com */,
+				A8D9122F1346271D00FA418E /* org */,
+				A8D9121E1346270C00FA418E /* QuartzCore.framework */,
 				A8D912001346070600FA418E /* UIKit.framework */,
 				A8D912021346070600FA418E /* Foundation.framework */,
 				A8D912041346070600FA418E /* CoreGraphics.framework */,
@@ -77,6 +174,10 @@
 				A8D9120F1346070600FA418E /* MeritPuzzleAppDelegate.h */,
 				A8D912101346070600FA418E /* MeritPuzzleAppDelegate.m */,
 				A8D912121346070600FA418E /* MainWindow.xib */,
+				A8E00F111347206B00C52C86 /* ApplicationFacade.h */,
+				A8E00F121347206B00C52C86 /* ApplicationFacade.m */,
+				A8E00F0C13471F2400C52C86 /* controller */,
+				A8E00F0D13471F2400C52C86 /* view */,
 				A8D912071346070600FA418E /* Supporting Files */,
 			);
 			path = MeritPuzzle;
@@ -91,6 +192,225 @@
 				A8D9120D1346070600FA418E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8D912211346271D00FA418E /* com */ = {
+			isa = PBXGroup;
+			children = (
+				A8D912221346271D00FA418E /* muizz */,
+				A8D912231346271D00FA418E /* tweenc */,
+			);
+			name = com;
+			path = "../../../../../../../../Frameworks/Objective-C/com";
+			sourceTree = "<group>";
+		};
+		A8D912221346271D00FA418E /* muizz */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = muizz;
+			sourceTree = "<group>";
+		};
+		A8D912231346271D00FA418E /* tweenc */ = {
+			isa = PBXGroup;
+			children = (
+				A8D912241346271D00FA418E /* TweenC.h */,
+				A8D912251346271D00FA418E /* TweenC.m */,
+				A8D912261346271D00FA418E /* TweenConstants.h */,
+				A8D912271346271D00FA418E /* TweenConstants.m */,
+				A8D912281346271D00FA418E /* TweenCPlaygroundAppDelegate.h */,
+				A8D912291346271D00FA418E /* TweenCPlaygroundAppDelegate.m */,
+				A8D9122A1346271D00FA418E /* TweenCPlaygroundViewController.h */,
+				A8D9122B1346271D00FA418E /* TweenCPlaygroundViewController.m */,
+				A8D9122C1346271D00FA418E /* TweenEquations.h */,
+				A8D9122D1346271D00FA418E /* TweenerAnimation.h */,
+				A8D9122E1346271D00FA418E /* TweenerAnimation.m */,
+			);
+			path = tweenc;
+			sourceTree = "<group>";
+		};
+		A8D9122F1346271D00FA418E /* org */ = {
+			isa = PBXGroup;
+			children = (
+				A8D912301346271D00FA418E /* puremvc */,
+			);
+			name = org;
+			path = "../../../../../../../../Frameworks/Objective-C/org";
+			sourceTree = "<group>";
+		};
+		A8D912301346271D00FA418E /* puremvc */ = {
+			isa = PBXGroup;
+			children = (
+				A8D912311346271D00FA418E /* core */,
+				A8D912381346271D00FA418E /* headers */,
+				A8D9124E1346271D00FA418E /* interfaces */,
+				A8D912591346271D00FA418E /* patterns */,
+			);
+			path = puremvc;
+			sourceTree = "<group>";
+		};
+		A8D912311346271D00FA418E /* core */ = {
+			isa = PBXGroup;
+			children = (
+				A8D912321346271D00FA418E /* Controller.h */,
+				A8D912331346271D00FA418E /* Controller.m */,
+				A8D912341346271D00FA418E /* Model.h */,
+				A8D912351346271D00FA418E /* Model.m */,
+				A8D912361346271D00FA418E /* View.h */,
+				A8D912371346271D00FA418E /* View.m */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		A8D912381346271D00FA418E /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				A8D912391346271D00FA418E /* Controller.h */,
+				A8D9123A1346271D00FA418E /* Facade.h */,
+				A8D9123B1346271D00FA418E /* ICommand.h */,
+				A8D9123C1346271D00FA418E /* IController.h */,
+				A8D9123D1346271D00FA418E /* IFacade.h */,
+				A8D9123E1346271D00FA418E /* IMediator.h */,
+				A8D9123F1346271D00FA418E /* IModel.h */,
+				A8D912401346271D00FA418E /* INotification.h */,
+				A8D912411346271D00FA418E /* INotifier.h */,
+				A8D912421346271D00FA418E /* IObserver.h */,
+				A8D912431346271D00FA418E /* IProxy.h */,
+				A8D912441346271D00FA418E /* IView.h */,
+				A8D912451346271D00FA418E /* MacroCommand.h */,
+				A8D912461346271D00FA418E /* Mediator.h */,
+				A8D912471346271D00FA418E /* Model.h */,
+				A8D912481346271D00FA418E /* Notification.h */,
+				A8D912491346271D00FA418E /* Notifier.h */,
+				A8D9124A1346271D00FA418E /* Observer.h */,
+				A8D9124B1346271D00FA418E /* Proxy.h */,
+				A8D9124C1346271D00FA418E /* SimpleCommand.h */,
+				A8D9124D1346271D00FA418E /* View.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		A8D9124E1346271D00FA418E /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				A8D9124F1346271D00FA418E /* ICommand.h */,
+				A8D912501346271D00FA418E /* IController.h */,
+				A8D912511346271D00FA418E /* IFacade.h */,
+				A8D912521346271D00FA418E /* IMediator.h */,
+				A8D912531346271D00FA418E /* IModel.h */,
+				A8D912541346271D00FA418E /* INotification.h */,
+				A8D912551346271D00FA418E /* INotifier.h */,
+				A8D912561346271D00FA418E /* IObserver.h */,
+				A8D912571346271D00FA418E /* IProxy.h */,
+				A8D912581346271D00FA418E /* IView.h */,
+			);
+			path = interfaces;
+			sourceTree = "<group>";
+		};
+		A8D912591346271D00FA418E /* patterns */ = {
+			isa = PBXGroup;
+			children = (
+				A8D9125A1346271D00FA418E /* command */,
+				A8D9125F1346271D00FA418E /* facade */,
+				A8D912621346271D00FA418E /* mediator */,
+				A8D912651346271D00FA418E /* observer */,
+				A8D9126C1346271D00FA418E /* proxy */,
+			);
+			path = patterns;
+			sourceTree = "<group>";
+		};
+		A8D9125A1346271D00FA418E /* command */ = {
+			isa = PBXGroup;
+			children = (
+				A8D9125B1346271D00FA418E /* MacroCommand.h */,
+				A8D9125C1346271D00FA418E /* MacroCommand.m */,
+				A8D9125D1346271D00FA418E /* SimpleCommand.h */,
+				A8D9125E1346271D00FA418E /* SimpleCommand.m */,
+			);
+			path = command;
+			sourceTree = "<group>";
+		};
+		A8D9125F1346271D00FA418E /* facade */ = {
+			isa = PBXGroup;
+			children = (
+				A8D912601346271D00FA418E /* Facade.h */,
+				A8D912611346271D00FA418E /* Facade.m */,
+			);
+			path = facade;
+			sourceTree = "<group>";
+		};
+		A8D912621346271D00FA418E /* mediator */ = {
+			isa = PBXGroup;
+			children = (
+				A8D912631346271D00FA418E /* Mediator.h */,
+				A8D912641346271D00FA418E /* Mediator.m */,
+			);
+			path = mediator;
+			sourceTree = "<group>";
+		};
+		A8D912651346271D00FA418E /* observer */ = {
+			isa = PBXGroup;
+			children = (
+				A8D912661346271D00FA418E /* Notification.h */,
+				A8D912671346271D00FA418E /* Notification.m */,
+				A8D912681346271D00FA418E /* Notifier.h */,
+				A8D912691346271D00FA418E /* Notifier.m */,
+				A8D9126A1346271D00FA418E /* Observer.h */,
+				A8D9126B1346271D00FA418E /* Observer.m */,
+			);
+			path = observer;
+			sourceTree = "<group>";
+		};
+		A8D9126C1346271D00FA418E /* proxy */ = {
+			isa = PBXGroup;
+			children = (
+				A8D9126D1346271D00FA418E /* Proxy.h */,
+				A8D9126E1346271D00FA418E /* Proxy.m */,
+			);
+			path = proxy;
+			sourceTree = "<group>";
+		};
+		A8E00F0C13471F2400C52C86 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8E00F141347210600C52C86 /* StartupCommand.h */,
+				A8E00F151347210600C52C86 /* StartupCommand.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A8E00F0D13471F2400C52C86 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A8E00F0E13471F2400C52C86 /* components */,
+				A8E00F0F13471F2400C52C86 /* images */,
+				A8E00F1013471F2400C52C86 /* mediators */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A8E00F0E13471F2400C52C86 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				A8E00F171347218500C52C86 /* MeritPuzzle.h */,
+				A8E00F181347218500C52C86 /* MeritPuzzle.m */,
+				A8E00F191347218500C52C86 /* MeritPuzzle.xib */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		A8E00F0F13471F2400C52C86 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A8E00F1013471F2400C52C86 /* mediators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mediators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +465,7 @@
 			files = (
 				A8D9120B1346070600FA418E /* InfoPlist.strings in Resources */,
 				A8D912141346070600FA418E /* MainWindow.xib in Resources */,
+				A8E00F1B1347218500C52C86 /* MeritPuzzle.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +478,25 @@
 			files = (
 				A8D9120E1346070600FA418E /* main.m in Sources */,
 				A8D912111346070600FA418E /* MeritPuzzleAppDelegate.m in Sources */,
+				A8D9126F1346271D00FA418E /* TweenC.m in Sources */,
+				A8D912701346271D00FA418E /* TweenConstants.m in Sources */,
+				A8D912711346271D00FA418E /* TweenCPlaygroundAppDelegate.m in Sources */,
+				A8D912721346271D00FA418E /* TweenCPlaygroundViewController.m in Sources */,
+				A8D912731346271D00FA418E /* TweenerAnimation.m in Sources */,
+				A8D912741346271D00FA418E /* Controller.m in Sources */,
+				A8D912751346271D00FA418E /* Model.m in Sources */,
+				A8D912761346271D00FA418E /* View.m in Sources */,
+				A8D912771346271D00FA418E /* MacroCommand.m in Sources */,
+				A8D912781346271D00FA418E /* SimpleCommand.m in Sources */,
+				A8D912791346271D00FA418E /* Facade.m in Sources */,
+				A8D9127A1346271D00FA418E /* Mediator.m in Sources */,
+				A8D9127B1346271D00FA418E /* Notification.m in Sources */,
+				A8D9127C1346271D00FA418E /* Notifier.m in Sources */,
+				A8D9127D1346271D00FA418E /* Observer.m in Sources */,
+				A8D9127E1346271D00FA418E /* Proxy.m in Sources */,
+				A8E00F131347206B00C52C86 /* ApplicationFacade.m in Sources */,
+				A8E00F161347210600C52C86 /* StartupCommand.m in Sources */,
+				A8E00F1A1347218500C52C86 /* MeritPuzzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +603,7 @@
 				A8D912191346070600FA418E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
