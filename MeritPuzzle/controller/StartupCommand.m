@@ -10,6 +10,7 @@
 #import "MeritPuzzle.h"
 #import "MeritPuzzleMediator.h"
 #import "IntroMediator.h"
+#import "BoatAnimationMediator.h"
 
 @implementation StartupCommand
 
@@ -18,6 +19,7 @@
     
     [facade registerMediator:[MeritPuzzleMediator withViewComponent:app]];
     [facade registerMediator:[IntroMediator withViewComponent:app.intro]];
+    [facade registerMediator:[BoatAnimationMediator withViewComponent:app.boatAnimation]];
 }
 
 @end

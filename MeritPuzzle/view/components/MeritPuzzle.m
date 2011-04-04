@@ -19,6 +19,7 @@
     if (self) {
         // Custom initialization
         intro = [[Intro alloc] init];
+        boatAnimation = [[BoatAnimation alloc] init];
         
         [self showIntro];
     }
@@ -26,8 +27,10 @@
 }
 
 - (void)showIntro {
-    [self.view addSubview:intro.view];
-    [intro animateIn];
+    //[self.view addSubview:intro.view];
+    //[intro animateIn];
+    [self.view addSubview:boatAnimation.view];
+   //[boatAnimation animateIn];
 }
 
 - (void)hideIntro {

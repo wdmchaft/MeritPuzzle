@@ -10,7 +10,7 @@
 #import "MeritPuzzle.h"
 #import "ApplicationFacade.h"
  
-
+  
 @implementation MeritPuzzleAppDelegate
 
 

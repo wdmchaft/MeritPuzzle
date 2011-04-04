@@ -7,27 +7,32 @@
 //
 
 #import "BoatAnimation.h"
+#import "Animations.h"
 
 
 @implementation BoatAnimation
-
-@synthesize man;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        manRect = CGRectMake(-75, -69, 475, 443);
+        packRect = CGRectMake(714, 137, 379, 498);
     }
-    return self;
+    return self; 
 }
 
 - (void)animateIn {
-    
+    [Animations animateViewTo:man animateWithDuration:1 delay:0 options:UIViewAnimationCurveEaseOut frame:manRect delegate:nil selector:nil];
+    [Animations animateViewTo:pack animateWithDuration:1 delay:0.5 options:UIViewAnimationCurveEaseOut frame:packRect delegate:self selector:@selector(animateInDidComplete)];
 }
 
 - (void)animateInDidComplete {
-    
+    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init]; //required for detachNewThreadSelector from Animations.h
+    NSLog(@"complete");
+    NSLog(@"%f, %f", pack.frame.origin.x, pack.frame.origin.y);
+    [pool release];
 }
 
 - (void)animateOut {
@@ -61,6 +66,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    [self animateIn];
 }
 
 - (void)viewDidUnload

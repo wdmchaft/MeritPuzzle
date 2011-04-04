@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MeritPuzzleAppDelegate : NSObject <UIApplicationDelegate> {
- 
+
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

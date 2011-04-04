@@ -11,8 +11,10 @@
 
 @interface BoatAnimation : UIViewController <AnimationDelegate> {
     IBOutlet UIImageView *man;
+    IBOutlet UIImageView *pack;
+    
+    CGRect manRect;
+    CGRect packRect;
 }
-
-@property (nonatomic, retain) IBOutlet UIImageView *man;
 
 @end
